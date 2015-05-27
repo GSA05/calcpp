@@ -13,5 +13,6 @@ HEADERS += \
     calc++-driver.hh
 
 OTHER_FILES += \
-    calc++-parser.yy
+    calc++-parser.yy \
+    calc++-scanner.ll
 
