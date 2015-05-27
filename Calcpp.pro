@@ -3,8 +3,9 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp \
-    calc++-driver.cc
+SOURCES += \
+    calc++-driver.cc \
+    calc++.cc
 
 include(deployment.pri)
 qtcAddDeployment()
