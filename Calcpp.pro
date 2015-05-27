@@ -12,3 +12,6 @@ qtcAddDeployment()
 HEADERS += \
     calc++-driver.hh
 
+OTHER_FILES += \
+    calc++-parser.yy
+
