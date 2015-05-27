@@ -1,7 +1,7 @@
 %skeleton "lalr1.cc" /* -*- C++ -*- */
 %require "2.7"
 %defines
-%defune parser_class_name {calcxx_parser}
+%define parser_class_name {calcxx_parser}
 %define api.token.constructor
 %define api.value.type variant
 %define parse.assert
@@ -44,7 +44,7 @@ class calcxx_driver;
 unit: assignments exp   { driver.result = $2; };
 
 assignments:
-    %empty                  {}
+    /* empty */             {}
 |   assignments assignment  {};
 
 assignment:
